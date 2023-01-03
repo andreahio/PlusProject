@@ -1,0 +1,78 @@
+h1 {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 15px;
+    color:#AB47BC;
+    font-family: New York;
+}
+h2 {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 15px;
+    color: #4EAE53;
+    font-family: New York;
+}
+.explore {
+    color:#4EAE53;
+}
+.firstQ {
+    color: #AB47BC
+}
+.faranheit {
+    color:blue
+}
+form {
+    display: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+}
+.card-footer {
+    color: #AB47BC
+}
+.card-img-top {
+width: 100%;
+height: 30vh;
+object-fit: contain;
+}
+.card-text {
+    text-align: left;
+    color: black;
+}
+.card-title {
+    color: black;
+}
+.card {
+    background-color: azure;
+}
+.fa-solidfa-solid fa-cloud-showers-water {
+    text-align: center;
+}
+.btn {
+    color: #AB47BC;
+}
+html {
+  font-size: 1rem;
+}
+
+ media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}@include
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
